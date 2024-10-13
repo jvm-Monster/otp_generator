@@ -1,0 +1,33 @@
+.button {
+    -fx-background-color: #5656ba;
+    -fx-text-fill: white;
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(gaussian, #5e5d5d,2,0,1,1);
+
+}
+
+
+.bg-container{
+    -fx-background-color: #d1d1ea;
+}
+/* Styling the slider container */
+.slide-container {
+    -fx-background-color: #c7c7ef;
+    -fx-background-radius: 20;
+    -fx-padding: 10;
+}
+
+/* Styling the slider track (line) */
+.slider .track {
+    -fx-background-color: #9999ff; /* Color of the slider track */
+    -fx-background-radius: 5; /* Rounded corners of the track */
+    -fx-padding: 5; /* Spacing around the track */
+}
+
+/* Styling the slider thumb (button) */
+.slider .thumb {
+    -fx-background-color: #5656ba; /* Color of the button */
+    -fx-background-radius: 10; /* Rounded corners for the button */
+    -fx-padding: 5; /* Spacing around the button */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.4) , 4, 0, 1, 1 ); /* Adding a shadow effect */
+}
